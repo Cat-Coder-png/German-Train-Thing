@@ -1,8 +1,8 @@
 
 import React, { useState, useMemo } from 'react';
 import { X, Clock, Users, ArrowRight, MapPin, Navigation, Share2, Gauge, Activity, Map as MapIcon, ChevronDown, ChevronUp, Building2, Globe } from 'lucide-react';
-import { Train, Station } from '../types';
-import { TRAIN_COLORS, STATIONS } from '../constants';
+import { Train, Station } from '../types.ts';
+import { TRAIN_COLORS, STATIONS } from '../constants.ts';
 
 interface TrainDetailsProps {
   train: Train;

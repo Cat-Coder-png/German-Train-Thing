@@ -1,8 +1,8 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { Bot, Send, Sparkles, Terminal, Minimize2, Maximize2 } from 'lucide-react';
-import { GeminiRailService } from '../services/geminiService';
-import { Train } from '../types';
+import { GeminiRailService } from '../services/geminiService.ts';
+import { Train } from '../types.ts';
 
 interface Message {
   role: 'user' | 'assistant';

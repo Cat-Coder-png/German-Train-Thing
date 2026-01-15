@@ -1,8 +1,8 @@
 
 import React, { useEffect, useRef } from 'react';
 import L from 'leaflet';
-import { Train, Station } from '../types';
-import { STATIONS, TRAIN_COLORS } from '../constants';
+import { Train, Station } from '../types.ts';
+import { STATIONS, TRAIN_COLORS } from '../constants.ts';
 
 interface MapViewProps {
   trains: Train[];

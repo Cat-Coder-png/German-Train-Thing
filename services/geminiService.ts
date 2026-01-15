@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import { Train, NetworkStatus } from "../types";
+import { Train, NetworkStatus } from "../types.ts";
 
 export class GeminiRailService {
   private ai: GoogleGenAI;

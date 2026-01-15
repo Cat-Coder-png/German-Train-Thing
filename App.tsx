@@ -1,12 +1,12 @@
 
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import { Train, TrainType, NetworkStatus } from './types';
-import { generateInitialTrains, updateTrains } from './utils/simulation';
-import Sidebar from './components/Sidebar';
-import MapView from './components/MapView';
-import TrainDetails from './components/TrainDetails';
-import AIConsole from './components/AIConsole';
-import { GeminiRailService } from './services/geminiService';
+import { Train, TrainType, NetworkStatus } from './types.ts';
+import { generateInitialTrains, updateTrains } from './utils/simulation.ts';
+import Sidebar from './components/Sidebar.tsx';
+import MapView from './components/MapView.tsx';
+import TrainDetails from './components/TrainDetails.tsx';
+import AIConsole from './components/AIConsole.tsx';
+import { GeminiRailService } from './services/geminiService.ts';
 import { Globe, Activity, RefreshCw } from 'lucide-react';
 
 const App: React.FC = () => {

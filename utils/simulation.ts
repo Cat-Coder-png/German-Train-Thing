@@ -1,6 +1,6 @@
 
-import { Train, Station, RouteStop, TrainType } from '../types';
-import { STATIONS, TRAIN_TYPES } from '../constants';
+import { Train, Station, RouteStop, TrainType } from '../types.ts';
+import { STATIONS, TRAIN_TYPES } from '../constants.ts';
 
 const getRandomElement = <T,>(arr: T[]): T => arr[Math.floor(Math.random() * arr.length)];
 

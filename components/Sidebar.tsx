@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Search, Train as TrainIcon, Filter, Clock, CheckCircle, Users, RefreshCw } from 'lucide-react';
-import { Train, TrainType } from '../types';
-import { TRAIN_TYPES, TRAIN_COLORS } from '../constants';
+import { Train, TrainType } from '../types.ts';
+import { TRAIN_TYPES, TRAIN_COLORS } from '../constants.ts';
 
 interface SidebarProps {
   trains: Train[];
