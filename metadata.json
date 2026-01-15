@@ -1,5 +1,5 @@
 {
-  "name": "Copy of ZugRadar Deutschland",
+  "name": "Casey's ZugRadar Deutschland",
   "description": "A high-performance real-time train tracking dashboard for the German rail network, featuring live movement simulation, route analysis, and an AI rail assistant.",
   "requestFramePermissions": [
     "geolocation"

@@ -32,7 +32,7 @@ export class GeminiRailService {
     try {
       const response = await this.ai.models.generateContent({
         model: 'gemini-3-flash-preview',
-        contents: `Context: You are ZugRadar AI, a specialized assistant for the German rail network. 
+        contents: `Context: You are Casey's ZugRadar AI, a specialized assistant for the German rail network. 
         Current Status Context: ${context}
         User Query: ${query}
         

@@ -43,7 +43,7 @@ const Sidebar: React.FC<SidebarProps> = ({
           <div className="p-2 bg-red-600 rounded-lg shadow-lg shadow-red-600/20">
             <TrainIcon className="text-white w-6 h-6" />
           </div>
-          <h1 className="text-xl font-bold text-white tracking-tight">ZugRadar <span className="text-red-500 font-light italic">Live</span></h1>
+          <h1 className="text-xl font-bold text-white tracking-tight">Casey's ZugRadar <span className="text-red-500 font-light italic">Live</span></h1>
         </div>
 
         <div className="relative group">

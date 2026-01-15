@@ -18,7 +18,7 @@ const AIConsole: React.FC<AIConsoleProps> = ({ trains, networkStatusText }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMinimized, setIsMinimized] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'assistant', content: "Moin! I'm your ZugRadar AI. How can I help you navigate the German rail network today?" }
+    { role: 'assistant', content: "Moin! I'm Casey's ZugRadar AI. How can I help you navigate the German rail network today?" }
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -67,7 +67,7 @@ const AIConsole: React.FC<AIConsoleProps> = ({ trains, networkStatusText }) => {
       <div className="p-3 border-b border-slate-800 flex items-center justify-between bg-slate-800/50 rounded-t-2xl">
         <div className="flex items-center gap-2">
           <Sparkles className="w-4 h-4 text-red-500" />
-          <span className="text-xs font-bold text-white uppercase">ZugRadar AI Console</span>
+          <span className="text-xs font-bold text-white uppercase">Casey's ZugRadar AI Console</span>
         </div>
         <div className="flex items-center gap-2">
           <button onClick={() => setIsMinimized(!isMinimized)} className="p-1 hover:bg-slate-700 rounded text-slate-400">
